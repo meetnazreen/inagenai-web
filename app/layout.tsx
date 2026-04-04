@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "InagenAI — Coming Soon",
-  description: "Something new is coming. InagenAI is launching soon.",
+  description: "InagenAI is an agent-first business platform. Build and manage a full team of AI agents to handle your operations — so you can focus on what actually matters.",
 };
 
 export default function RootLayout({

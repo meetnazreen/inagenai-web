@@ -113,6 +113,33 @@ export default function Home() {
         </div>
       </main>
 
+      {/* About section — describes app purpose for visitors and crawlers */}
+      <section className="px-6 py-16 border-t border-[#e5e7eb] bg-[#f9fafb]">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-[12px] font-medium uppercase tracking-widest text-[#9ca3af] mb-10">What we&apos;re building</p>
+          <div className="grid sm:grid-cols-3 gap-10">
+            <div>
+              <h2 className="text-[15px] font-semibold text-[#0a0a0a] mb-2">Agent-first business platform</h2>
+              <p className="text-[14px] text-[#6b7280] leading-relaxed">
+                InagenAI is a platform for building and running businesses powered by AI agents. Deploy a full team of agents that handle your day-to-day operations end to end.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-[15px] font-semibold text-[#0a0a0a] mb-2">Manage your agent workforce</h2>
+              <p className="text-[14px] text-[#6b7280] leading-relaxed">
+                Assign roles, set goals, and monitor performance across your entire agent team — all from a single workspace built for modern operators.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-[15px] font-semibold text-[#0a0a0a] mb-2">Focus on what matters</h2>
+              <p className="text-[14px] text-[#6b7280] leading-relaxed">
+                Delegate the operational workload to agents so you and your team can spend time on strategy, creativity, and growth instead of repetitive tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="px-6 py-6 border-t border-[#e5e7eb]">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-[13px] text-[#9ca3af]">
