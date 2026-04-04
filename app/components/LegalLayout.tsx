@@ -22,6 +22,9 @@ export default function LegalLayout({ title, lastUpdated, children }: LegalLayou
             <Link href="/terms-of-service" className="hover:text-[#0a0a0a] transition-colors duration-150">
               Terms
             </Link>
+            <Link href="/gdpr" className="hover:text-[#0a0a0a] transition-colors duration-150">
+              GDPR
+            </Link>
           </nav>
         </div>
       </header>
@@ -52,6 +55,9 @@ export default function LegalLayout({ title, lastUpdated, children }: LegalLayou
             </Link>
             <Link href="/terms-of-service" className="hover:text-[#6b7280] transition-colors duration-150">
               Terms of Service
+            </Link>
+            <Link href="/gdpr" className="hover:text-[#6b7280] transition-colors duration-150">
+              GDPR
             </Link>
           </div>
         </div>
