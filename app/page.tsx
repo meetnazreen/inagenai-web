@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -39,9 +40,16 @@ export default function Home() {
       {/* Nav */}
       <header className="w-full px-6 py-5 border-b border-[#e5e7eb]">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <span className="text-[15px] font-semibold tracking-tight text-[#0a0a0a]">
-            InagenAI
-          </span>
+          <Link href="/" aria-label="InagenAI home" className="inline-flex items-center">
+            <Image
+              src="/inagen-logo.svg"
+              alt="InagenAI"
+              width={120}
+              height={29}
+              priority
+              className="h-6 w-auto"
+            />
+          </Link>
           <nav className="flex items-center gap-6 text-sm text-[#6b7280]">
             <Link href="/privacy" className="hover:text-[#0a0a0a] transition-colors duration-150">
               Privacy
