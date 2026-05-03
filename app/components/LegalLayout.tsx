@@ -16,15 +16,6 @@ export default function LegalLayout({ title, lastUpdated, children }: LegalLayou
             InagenAI
           </Link>
           <nav className="flex items-center gap-6 text-sm text-[#6b7280]">
-            <Link href="/privacy" className="hover:text-[#0a0a0a] transition-colors duration-150">
-              Privacy
-            </Link>
-            <Link href="/terms-of-service" className="hover:text-[#0a0a0a] transition-colors duration-150">
-              Terms
-            </Link>
-            <Link href="/gdpr" className="hover:text-[#0a0a0a] transition-colors duration-150">
-              GDPR
-            </Link>
             <a
               href="https://x.com/inagenai"
               target="_blank"
@@ -37,6 +28,15 @@ export default function LegalLayout({ title, lastUpdated, children }: LegalLayou
               </svg>
               @inagenai
             </a>
+            <Link href="/privacy" className="hover:text-[#0a0a0a] transition-colors duration-150">
+              Privacy
+            </Link>
+            <Link href="/terms-of-service" className="hover:text-[#0a0a0a] transition-colors duration-150">
+              Terms
+            </Link>
+            <Link href="/gdpr" className="hover:text-[#0a0a0a] transition-colors duration-150">
+              GDPR
+            </Link>
           </nav>
         </div>
       </header>
